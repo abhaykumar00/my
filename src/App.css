@@ -1,0 +1,74 @@
+.container{
+  display: grid;
+  grid-template-rows: 1fr 7fr;
+  grid-template-columns: 1fr 2fr;
+  height: 90vh;
+  margin: 5px 5px 0 5px;
+}
+.part {
+  border: 1px solid rgb(217, 196, 196);
+  position: relative;
+  overflow: hidden;
+  overflow: auto;
+  
+ 
+}
+.HeaderLeft{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+
+.part1 ,.part2{
+  background-color: #DFD7BF;
+}
+.chatNames {
+  background-color: #DFD7BF;
+}
+.chatNames input{
+   width: 90%;
+   border-radius: 20px;
+   height: 20px;
+   margin:10px 20px 10px 10px;
+   
+}
+.chatLive{
+  display: grid;
+  grid-template-rows: 10fr 1fr;
+ 
+ 
+}
+.messageLive{
+  height: 100%;
+  overflow: hidden;
+  overflow: auto;
+
+}
+.inputBottomdiv{
+  
+  margin-bottom: 0;
+  display: flex;
+  background-color: grey;
+
+}
+.inputBottomdiv input{
+  flex: 1;
+  border-radius: 10px;
+  margin: 5px 10px ;
+}
+.chatSender{
+  display: flex;
+  justify-content:end;
+  flex-direction: "column";
+}
+.chatReciever{
+  display: flex;
+  justify-content:start;
+
+}
+.chatReciever p{
+  margin: 0;
+  
+}
